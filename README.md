@@ -7,7 +7,11 @@ Optimize the scene segmentation given features for each shot, the scene transiti
 # Approach
 Using the vectors given for the place, cast, action and audio, we compute the pairwise distances. Then, we take the mean of all the distances matrices. Shots within the same scene should have low distance value, and shots in different scene would have higher values.
 
-# Results for baseline code.
+# Output files
+output files with updated prediction values are here: https://drive.google.com/file/d/1iidhI3UxxFW5gnbB1afDPU8b-ljIzQHA/view?usp=sharing
+
+# Results
+Results for baseline code.
 ```
 $ python evaluate_sceneseg.py ../data
 number of IMDB IDs: 64
